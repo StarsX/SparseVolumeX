@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{bb2dc12b-b259-49b0-847f-e4c856aa88eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{5e5cd4ba-0467-474d-8d33-3e66cd3deb86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XSDX">
+      <UniqueIdentifier>{32610ecb-98c8-4dae-9db9-4aeb6581d5db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XSDX\Source Files">
+      <UniqueIdentifier>{57f7f69a-092c-484f-8606-02513af55206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XSDX\Header Files">
+      <UniqueIdentifier>{8e336ed4-a954-45f6-afe7-e76286f39714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XSDX\Shader Files">
+      <UniqueIdentifier>{22cfae22-e6d0-4627-a3b7-a96d3b18be8b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="XSDX\XSDXResource.h">
+      <Filter>XSDX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XSDX\XSDXShader.h">
+      <Filter>XSDX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XSDX\XSDXShaderCommon.h">
+      <Filter>XSDX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XSDX\XSDXSharedConst.h">
+      <Filter>XSDX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XSDX\XSDXState.h">
+      <Filter>XSDX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XSDX\XSDXType.h">
+      <Filter>XSDX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ObjLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\SharedConst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\SparseVolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SparseVolumeX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SparseVolumeX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XSDX\XSDXResource.cpp">
+      <Filter>XSDX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XSDX\XSDXShader.cpp">
+      <Filter>XSDX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XSDX\XSDXState.cpp">
+      <Filter>XSDX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\ObjLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\SparseVolume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SparseVolumeX.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SparseVolumeX.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="XSDX\CHDataSize.hlsli">
+      <Filter>XSDX\Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Content\VSBasePass.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\PSDepthPeel.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\PSNormal.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\PSTest.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\CSRender.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
